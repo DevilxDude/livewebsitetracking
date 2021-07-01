@@ -14,3 +14,7 @@
   border-left: 0.4rem solid var(--error, #fc5200);
   padding-left: 1rem;
 }
+
+.last-checked {
+  margin-right: 3rem;
+}
