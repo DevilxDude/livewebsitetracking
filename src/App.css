@@ -119,6 +119,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
+  flex-direction: row;
 }
 
 .row.vertical-center {
@@ -140,4 +141,14 @@ body {
 
 .footer-info {
   margin: 2rem auto;
+}
+
+@media (max-width: 480px) {
+  .container {
+    margin-left: 1rem;
+  margin-right: 1rem;
+  }
+  .row {
+    flex-direction: column;
+  }
 }

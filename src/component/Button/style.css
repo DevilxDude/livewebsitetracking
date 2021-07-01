@@ -48,3 +48,10 @@
   background-color: var(--cyan, #87e7ff);
   border-color: var(--cyan, #87e7ff);
 }
+
+@media (max-width: 480px) {
+  .button {
+    margin: 1rem auto;
+    width: 100%;
+  }
+}

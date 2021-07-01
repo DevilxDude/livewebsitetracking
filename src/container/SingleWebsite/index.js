@@ -42,7 +42,7 @@ function SingleWebsite({ website }) {
         <Heading>{title}</Heading>
         <Link url={url} isLive={isLive} />
       </div>
-      <div className="row vertical-center">
+      <div className="row vertical-center actions">
         <div className="text-muted last-checked">
           Last Checked: {timeDifference} minutes ago
         </div>

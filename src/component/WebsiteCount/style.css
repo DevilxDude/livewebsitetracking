@@ -3,3 +3,9 @@
   line-height: 1;
   color: var(--turquoise, #006b6e);
 }
+@media (max-width: 480px) {
+  .count {
+    width: 100%;
+    text-align: center;
+  }
+}

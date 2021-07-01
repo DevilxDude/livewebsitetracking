@@ -4,7 +4,7 @@ import getClickableLink from "./getClickableLink";
 const api =
   process.env.NODE_ENV === "development"
     ? "http://localhost:5000/"
-    : "http://localhost:5000/";
+    : "https://livewebsitetrackingserver.vercel.app/";
 
 async function checkWebsite(url) {
   try {
