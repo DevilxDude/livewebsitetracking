@@ -1,0 +1,10 @@
+.heading {
+  font-size: 1.3rem;
+  line-height: 1;
+  font-weight: bold;
+  color: var(--text, #181818);
+}
+
+.heading.blue {
+  color: var(--blue, #00466e);
+}

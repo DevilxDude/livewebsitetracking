@@ -1,0 +1,50 @@
+.button {
+  color: white;
+  font-weight: bold;
+  letter-spacing: 0.1rem;
+  border: 1px solid var(--blue, #00466e);
+  background-color: var(--blue, #00466e);
+  border-radius: 0.3rem;
+  padding: 1.5rem 3rem;
+  margin-left: 1.5rem;
+  min-width: fit-content;
+  text-transform: uppercase;
+  opacity: 1;
+  transition: 0.3s ease all;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+.button:active {
+  opacity: 0.8;
+}
+
+.button.normal {
+  font-weight: 900;
+  padding: 1.4rem;
+  min-width: 10rem;
+}
+
+.button.large {
+  padding: 2rem 6rem;
+}
+
+.button.blue {
+  background-color: var(--blue, #00466e);
+  border-color: var(--blue, #00466e);
+}
+
+.button.green {
+  background-color: var(--green, #058423);
+  border-color: var(--green, #058423);
+}
+.button.red {
+  background-color: var(--error, #fc5200);
+  border-color: var(--error, #fc5200);
+}
+.button.cyan {
+  background-color: var(--cyan, #87e7ff);
+  border-color: var(--cyan, #87e7ff);
+}

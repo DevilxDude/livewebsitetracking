@@ -1,0 +1,11 @@
+.link {
+  display: block;
+  margin-top: 1rem;
+  text-decoration: none;
+  color: var(--blue, #00466e);
+}
+
+.link[disabled] {
+  color: var(--error, #fc5200);
+  pointer-events: none;
+}

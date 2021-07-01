@@ -1,0 +1,16 @@
+.website-container {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #b4b4b4;
+}
+
+.website-name {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.error-border {
+  border-left: 0.4rem solid var(--error, #fc5200);
+  padding-left: 1rem;
+}

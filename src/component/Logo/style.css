@@ -1,0 +1,7 @@
+.logo {
+  font-size: 1.3rem;
+  line-height: 1;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: var(--blue, #00466e);
+}
